@@ -20,3 +20,4 @@ games = pd.concat([games, identifiers], axis=1, sort=False)
 games = games.fillna(' ')
 
 print(games.head(5))
+print(games.info())
